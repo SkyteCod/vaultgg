@@ -1,0 +1,17 @@
+# Fichiers système Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+
+# Logs / dépendances éventuelles
+node_modules/
+*.log
