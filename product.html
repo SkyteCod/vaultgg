@@ -512,10 +512,11 @@ function addToCart(){
   showToast('Ajouté au panier !','Voir le panier →');
 }
 
-/* Buy now → checkout */
+/* Buy now → ouvre le formulaire de paiement (repli : checkout.html) */
 function buyNow(){
   addToCart();
-  setTimeout(()=>location.href='checkout.html',300);
+  if(window.openPayment){ openPayment(); }
+  else { setTimeout(()=>location.href='checkout.html',300); }
 }
 
 /* Toast */
@@ -534,5 +535,8 @@ if(typeof gsap!=='undefined'){
   gsap.from('.buy-panel',{opacity:0,x:30,duration:.8,delay:.2,ease:'power3.out'});
 }
 </script>
+
+<!-- Modal de paiement (PayPal + Carte) partagé -->
+<script src="js/payment.js"></script>
 </body>
 </html>

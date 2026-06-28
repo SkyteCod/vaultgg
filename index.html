@@ -287,9 +287,9 @@
   ══════════════════════════════════════════════════ */
   .games-grid{
     display:grid;grid-template-columns:1fr;gap:16px;
-    margin-bottom:64px;
+    max-width:760px;margin:0 auto 64px;
   }
-  @media(min-width:640px){.games-grid{grid-template-columns:repeat(3,1fr);gap:20px;}}
+  @media(min-width:640px){.games-grid{grid-template-columns:repeat(2,1fr);gap:24px;}}
 
   .game-card{
     border-radius:20px;overflow:hidden;cursor:pointer;
@@ -339,6 +339,11 @@
     transition:transform .4s var(--ease-out);
   }
   .game-card:hover .gc-icon{transform:scale(1.12) translateY(-2px);}
+  /* Logo officiel du jeu (carte de catégorie) */
+  .gc-logo-wrap{min-height:72px;display:flex;align-items:center;justify-content:center;margin-bottom:18px;transition:transform .4s var(--ease-out);}
+  .gc-logo{height:64px;width:auto;max-width:190px;object-fit:contain;filter:drop-shadow(0 6px 18px rgba(0,0,0,.55));}
+  .game-card:hover .gc-logo-wrap{transform:scale(1.08) translateY(-2px);}
+  .gc-logo-fallback{margin-bottom:0;}
   .gc-title{font-family:'Russo One',sans-serif;font-size:22px;color:#fff;margin-bottom:6px;}
   .gc-count{font-size:13px;margin-bottom:14px;}
   .gc-price{
@@ -660,6 +665,20 @@
   .modal-overlay.open .auth-modal{transform:none;opacity:1;}
   .modal-close-btn{position:absolute;top:16px;right:16px;width:32px;height:32px;border-radius:8px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);color:var(--muted-lt);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s;}
   .modal-close-btn:hover{background:rgba(244,63,94,.1);color:var(--rose);}
+
+  /* ── Modal "Comment ça marche" ── */
+  .hiw-modal{width:100%;max-width:580px;max-height:90vh;overflow-y:auto;background:rgba(8,8,22,.99);border:1px solid rgba(255,255,255,.12);border-radius:24px;padding:36px 30px 30px;position:relative;transform:translateY(24px) scale(.97);opacity:0;transition:transform .38s cubic-bezier(0.22,1,0.36,1),opacity .3s;box-shadow:0 40px 120px rgba(0,0,0,.7),0 0 60px rgba(124,58,237,.08);}
+  .modal-overlay.open .hiw-modal{transform:none;opacity:1;}
+  .hiw-title{font-family:'Russo One',sans-serif;font-size:clamp(20px,5vw,25px);text-align:center;margin-bottom:6px;background:linear-gradient(135deg,#fff 45%,var(--violet-lt));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+  .hiw-sub{text-align:center;color:var(--muted-lt);font-size:13px;margin-bottom:26px;}
+  .hiw-steps{display:flex;flex-direction:column;gap:14px;}
+  .hiw-step{display:flex;gap:15px;align-items:flex-start;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:16px;padding:16px 18px;transition:border-color .25s,background .25s,transform .25s;}
+  .hiw-step:hover{border-color:rgba(167,139,250,.3);background:rgba(124,58,237,.06);transform:translateX(3px);}
+  .hiw-step-icon{flex-shrink:0;width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,var(--violet),var(--rose));display:flex;align-items:center;justify-content:center;box-shadow:0 0 20px rgba(124,58,237,.35);position:relative;}
+  .hiw-step-num{position:absolute;top:-7px;left:-7px;width:22px;height:22px;border-radius:50%;background:#080816;border:1px solid var(--violet-lt);color:var(--violet-lt);font-size:11px;font-weight:700;font-family:'Russo One',sans-serif;display:flex;align-items:center;justify-content:center;}
+  .hiw-step-body h4{font-family:'Russo One',sans-serif;font-size:15px;color:#fff;margin-bottom:5px;}
+  .hiw-step-body p{font-size:13px;color:var(--muted-lt);line-height:1.6;}
+  .hiw-cta{width:100%;margin-top:24px;}
   .auth-panel{display:none;animation:fadeUp .3s ease both;}
   .auth-panel.active{display:block;}
   @keyframes fadeUp{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}
@@ -825,7 +844,7 @@
         Explorer les comptes
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>
-      <button class="btn btn-lg btn-ghost">
+      <button class="btn btn-lg btn-ghost" onclick="openHIW()">
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
         Comment ça marche
       </button>
@@ -842,8 +861,12 @@
 
       <article class="game-card gc-clash tilt" role="link" tabindex="0" aria-label="Explorer les comptes Clash Royale">
         <div class="gc-noise" aria-hidden="true"></div>
-        <div class="gc-icon">
-          <svg width="30" height="30" fill="none" stroke="#93c5fd" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20h20l-3-12-5 5-3-5-3 5-5-5Z"/><line x1="2" y1="20" x2="22" y2="20"/></svg>
+        <div class="gc-logo-wrap">
+          <img class="gc-logo" src="https://upload.wikimedia.org/wikipedia/fr/thumb/6/6a/Clash_Royale_Logo.png/240px-Clash_Royale_Logo.png" alt="Logo Clash Royale" referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.parentElement.querySelector('.gc-logo-fallback').style.display='flex';"/>
+          <div class="gc-icon gc-logo-fallback" style="display:none;" aria-hidden="true">
+            <svg width="30" height="30" fill="none" stroke="#93c5fd" stroke-width="2" viewBox="0 0 24 24"><path d="M2 20h20l-3-12-5 5-3-5-3 5-5-5Z"/><line x1="2" y1="20" x2="22" y2="20"/></svg>
+          </div>
         </div>
         <h2 class="gc-title">Clash Royale</h2>
         <p class="gc-count" style="color:#93c5fd;">7 comptes disponibles</p>
@@ -852,8 +875,12 @@
 
       <article class="game-card gc-fortnite tilt" role="link" tabindex="0" aria-label="Explorer les comptes Fortnite">
         <div class="gc-noise" aria-hidden="true"></div>
-        <div class="gc-icon">
-          <svg width="30" height="30" fill="none" stroke="#c4b5fd" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        <div class="gc-logo-wrap">
+          <img class="gc-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Fortnite_F_lettermark_logo.png/240px-Fortnite_F_lettermark_logo.png" alt="Logo Fortnite" referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.parentElement.querySelector('.gc-logo-fallback').style.display='flex';"/>
+          <div class="gc-icon gc-logo-fallback" style="display:none;" aria-hidden="true">
+            <svg width="30" height="30" fill="none" stroke="#c4b5fd" stroke-width="2" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
         </div>
         <h2 class="gc-title">Fortnite</h2>
         <p class="gc-count" style="color:#c4b5fd;">6 comptes disponibles</p>
@@ -1305,7 +1332,7 @@
       </div>
       <div>
         <p class="footer-col-title">Support</p>
-        <ul class="footer-links"><li><a href="#">FAQ</a></li><li><a href="#">Comment ça marche</a></li><li><a href="#">Contact</a></li></ul>
+        <ul class="footer-links"><li><a href="#">FAQ</a></li><li><a href="#" onclick="openHIW();return false;">Comment ça marche</a></li><li><a href="#">Contact</a></li></ul>
       </div>
       <div>
         <p class="footer-col-title">Légal</p>
@@ -1900,7 +1927,7 @@ updateCartBadge();
       <span class="cart-total-lbl">Total</span>
       <span class="cart-total-val" id="cart-total">0€</span>
     </div>
-    <a href="checkout.html" class="cart-cta">
+    <a href="checkout.html" class="cart-cta" onclick="if(window.openPayment){openPayment();return false;}">
       <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
       Passer au paiement
     </a>
@@ -1978,6 +2005,68 @@ updateCartBadge();
   </div>
 </div>
 
+<!-- ══════════════════ COMMENT ÇA MARCHE ══════════════════ -->
+<div id="hiw-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Comment ça marche">
+  <div class="hiw-modal">
+    <button class="modal-close-btn" id="hiw-close" aria-label="Fermer">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <h2 class="hiw-title">Comment ça marche ?</h2>
+    <p class="hiw-sub">Acheter un compte sur VaultGG en 4 étapes simples</p>
+
+    <div class="hiw-steps">
+      <div class="hiw-step">
+        <div class="hiw-step-icon">
+          <span class="hiw-step-num">1</span>
+          <svg width="22" height="22" fill="none" stroke="#fff" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+        </div>
+        <div class="hiw-step-body">
+          <h4>Choisis ton compte</h4>
+          <p>Parcours notre catalogue de comptes certifiés. Chaque compte affiche son contenu détaillé avant achat.</p>
+        </div>
+      </div>
+
+      <div class="hiw-step">
+        <div class="hiw-step-icon">
+          <span class="hiw-step-num">2</span>
+          <svg width="22" height="22" fill="none" stroke="#fff" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <div class="hiw-step-body">
+          <h4>Paye en sécurité</h4>
+          <p>Règle par carte bancaire (Visa, Mastercard) ou PayPal. Paiement sécurisé SSL 256-bit avec validation bancaire 3D Secure.</p>
+        </div>
+      </div>
+
+      <div class="hiw-step">
+        <div class="hiw-step-icon">
+          <span class="hiw-step-num">3</span>
+          <svg width="22" height="22" fill="none" stroke="#fff" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+        </div>
+        <div class="hiw-step-body">
+          <h4>Réception en 5 à 10 minutes</h4>
+          <p>Tu reçois un email avec l'adresse email du compte, le mot de passe temporaire, et un lien pour tout changer instantanément.</p>
+        </div>
+      </div>
+
+      <div class="hiw-step">
+        <div class="hiw-step-icon">
+          <span class="hiw-step-num">4</span>
+          <svg width="22" height="22" fill="none" stroke="#fff" stroke-width="2" viewBox="0 0 24 24"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.778-7.778zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3"/></svg>
+        </div>
+        <div class="hiw-step-body">
+          <h4>Compte 100% à toi</h4>
+          <p>Modifie l'email et le mot de passe immédiatement. Garantie anti-récupération incluse.</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="cart-cta hiw-cta" id="hiw-cta">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      Explorer les comptes
+    </button>
+  </div>
+</div>
+
 <!-- ══════════════════ TOAST ══════════════════ -->
 <div id="toast" role="alert" aria-live="polite">
   <svg id="toast-icon" width="20" height="20" fill="none" stroke="var(--green)" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
@@ -2032,12 +2121,43 @@ updateCartBadge();
   var toast=document.getElementById('toast');
   if(toast)toast.addEventListener('click',function(){toast.classList.remove('show');openCart();});
 
+  /* ── Modal "Comment ça marche" ── */
+  window.openHIW=function(){
+    var ov=document.getElementById('hiw-overlay');
+    if(ov){ov.classList.add('open');document.body.style.overflow='hidden';}
+  };
+  window.closeHIW=function(){
+    var ov=document.getElementById('hiw-overlay');
+    if(ov){ov.classList.remove('open');document.body.style.overflow='';}
+  };
+  var hov=document.getElementById('hiw-overlay');
+  var hcl=document.getElementById('hiw-close');
+  var hcta=document.getElementById('hiw-cta');
+  if(hov)hov.addEventListener('click',function(e){if(e.target===hov)closeHIW();});
+  if(hcl)hcl.addEventListener('click',closeHIW);
+  if(hcta)hcta.addEventListener('click',function(){closeHIW();var o=document.getElementById('offers');if(o)o.scrollIntoView({behavior:'smooth'});});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')closeHIW();});
+
+  /* Repli logos jeux : si non chargés après 2,5s (réseau bloqué), affiche l'icône SVG */
+  setTimeout(function(){
+    document.querySelectorAll('.gc-logo').forEach(function(img){
+      if(!img.complete || img.naturalWidth===0){
+        img.style.display='none';
+        var fb=img.parentElement.querySelector('.gc-logo-fallback');
+        if(fb)fb.style.display='flex';
+      }
+    });
+  },2500);
+
   /* Initialisation */
   activeFilter='all';
   searchQuery='';
   updateCartBadge();
 })();
 </script>
+
+<!-- Modal de paiement (PayPal + Carte) partagé -->
+<script src="js/payment.js"></script>
 
 </body>
 </html>
