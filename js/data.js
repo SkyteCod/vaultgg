@@ -844,5 +844,381 @@ const VAULT_PRODUCTS = [
         "text": "Bon compte pour le prix, livraison rapide et support dispo. Je recommande VaultGG."
       }
     ]
+  },
+  {
+    "id": 19,
+    "game": "fortnite",
+    "game_name": "Fortnite",
+    "title": "Compte Sweat — Aura + Skins Tryhard",
+    "subtitle": "Casier tryhard · Aura & skins sweat · Fortnite OG",
+    "price": 55,
+    "old_price": 75,
+    "discount": "-27%",
+    "badge": "Sweat",
+    "badge_class": "b-epic",
+    "rating": 5,
+    "reviews_count": 19,
+    "img_gradient": "linear-gradient(145deg,#1c0440,#5b21b6,#7c3aed)",
+    "icon_stroke": "#c4b5fd",
+    "images": [
+      "images/compte19-1",
+      "images/compte19-2",
+      "images/compte19-3",
+      "images/compte19-4",
+      "images/compte19-5",
+      "images/compte19-6",
+      "images/compte19-7",
+      "images/compte19-8",
+      "images/compte19-9"
+    ],
+    "features": [
+      "Skin Aura (sweat/tryhard)",
+      "Plusieurs skins compétitifs",
+      "Pioches et dos décoratifs assortis",
+      "Émotes populaires incluses",
+      "Compte Fortnite OG",
+      "Email Epic Games modifiable inclus"
+    ],
+    "stats": [
+      {
+        "label": "Skin star",
+        "value": "Aura"
+      },
+      {
+        "label": "Style",
+        "value": "Sweat"
+      },
+      {
+        "label": "Skins",
+        "value": "10+"
+      },
+      {
+        "label": "Mode",
+        "value": "OG"
+      }
+    ],
+    "includes": [
+      "Accès compte Epic Games complet",
+      "Changement email inclus",
+      "Garantie anti-récupération à vie",
+      "Livraison en moins de 10 minutes"
+    ],
+    "description": "Compte idéal pour les joueurs compétitifs : il tourne autour du skin Aura, l'un des plus utilisés en partie « sweat », accompagné de plusieurs tenues tryhard, pioches et émotes assorties. Compte Fortnite OG prêt à enchaîner les parties. Email Epic Games modifiable pour un transfert 100% sécurisé.",
+    "delivery_time": "< 10 minutes",
+    "reviews": [
+      {
+        "user": "SweatLord",
+        "stars": 5,
+        "date": "10/06/2024",
+        "text": "Vendeur sérieux, livraison rapide et compte conforme. Aucun souci, je recommande !"
+      },
+      {
+        "user": "ClutchFR",
+        "stars": 5,
+        "date": "11/06/2024",
+        "text": "Paiement sécurisé, accès reçu vite et support réactif. Nickel."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "game": "fortnite",
+    "game_name": "Fortnite",
+    "title": "Compte Galaxie — Skin Galaxy Rare + Niveau 76",
+    "subtitle": "Skin Galaxie (Samsung) · Niveau 76 · Fortnite OG",
+    "price": 230,
+    "old_price": 300,
+    "discount": "-23%",
+    "badge": "★ Galaxie",
+    "badge_class": "b-legendary",
+    "rating": 5,
+    "reviews_count": 31,
+    "img_gradient": "linear-gradient(145deg,#0e0030,#2e1065,#7c3aed)",
+    "icon_stroke": "#c4b5fd",
+    "images": [
+      "images/compte20-1",
+      "images/compte20-2",
+      "images/compte20-3",
+      "images/compte20-4",
+      "images/compte20-5",
+      "images/compte20-6",
+      "images/compte20-7"
+    ],
+    "features": [
+      "Skin Galaxie (exclusivité Samsung, très rare)",
+      "Dos décoratif et pioche Galaxie assortis",
+      "Compte niveau 76",
+      "Plusieurs skins supplémentaires dans le casier",
+      "Compte Fortnite OG",
+      "Email Epic Games modifiable inclus"
+    ],
+    "stats": [
+      {
+        "label": "Skin star",
+        "value": "Galaxie"
+      },
+      {
+        "label": "Niveau",
+        "value": "76"
+      },
+      {
+        "label": "Rareté",
+        "value": "Ultra rare"
+      },
+      {
+        "label": "Mode",
+        "value": "OG"
+      }
+    ],
+    "includes": [
+      "Accès compte Epic Games complet",
+      "Changement email inclus",
+      "Garantie anti-récupération à vie",
+      "Livraison en moins de 10 minutes"
+    ],
+    "description": "Compte collector avec le skin Galaxie, une exclusivité Samsung extrêmement rare et recherchée, accompagné de son dos décoratif et de sa pioche assortie. Compte de niveau 76 avec d'autres tenues dans le casier. Une pièce rare pour les vrais connaisseurs. Email Epic Games modifiable inclus.",
+    "delivery_time": "< 10 minutes",
+    "reviews": [
+      {
+        "user": "GalaxyOG",
+        "stars": 5,
+        "date": "10/06/2024",
+        "text": "Skin Galaxie authentique, livraison rapide et sécurisée. Vendeur au top, je recommande !"
+      },
+      {
+        "user": "StarHunter",
+        "stars": 5,
+        "date": "11/06/2024",
+        "text": "Compte conforme à 100%, email changé sans souci. Transaction nickel."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "game": "fortnite",
+    "game_name": "Fortnite",
+    "title": "Compte John Wick — Le Faucheur",
+    "subtitle": "John Wick / Le Faucheur · 400 V-Bucks · Niveau 8",
+    "price": 140,
+    "old_price": 180,
+    "discount": "-22%",
+    "badge": "John Wick",
+    "badge_class": "b-epic",
+    "rating": 5,
+    "reviews_count": 26,
+    "img_gradient": "linear-gradient(145deg,#1a1a2e,#3b0764,#6d28d9)",
+    "icon_stroke": "#c4b5fd",
+    "images": [
+      "images/compte21-1",
+      "images/compte21-2",
+      "images/compte21-3",
+      "images/compte21-4",
+      "images/compte21-5",
+      "images/compte21-6",
+      "images/compte21-7",
+      "images/compte21-8",
+      "images/compte21-9",
+      "images/compte21-10",
+      "images/compte21-11"
+    ],
+    "features": [
+      "Skin John Wick (Le Faucheur)",
+      "400 V-Bucks disponibles",
+      "Pioche et dos décoratif assortis",
+      "Plusieurs skins additionnels",
+      "Compte Fortnite OG",
+      "Email Epic Games modifiable inclus"
+    ],
+    "stats": [
+      {
+        "label": "Skin star",
+        "value": "John Wick"
+      },
+      {
+        "label": "Niveau",
+        "value": "8"
+      },
+      {
+        "label": "V-Bucks",
+        "value": "400"
+      },
+      {
+        "label": "Rareté",
+        "value": "Légendaire"
+      }
+    ],
+    "includes": [
+      "Accès compte Epic Games complet",
+      "Changement email inclus",
+      "Garantie anti-récupération à vie",
+      "Livraison en moins de 10 minutes"
+    ],
+    "description": "Compte mettant en vedette John Wick (Le Faucheur), l'un des skins réalistes les plus iconiques de Fortnite. 400 V-Bucks disponibles, pioche et dos décoratif assortis, plus d'autres tenues dans le casier. Email Epic Games modifiable pour un transfert sécurisé.",
+    "delivery_time": "< 10 minutes",
+    "reviews": [
+      {
+        "user": "WickReaper",
+        "stars": 5,
+        "date": "10/06/2024",
+        "text": "Skin John Wick confirmé, 400 V-Bucks présents. Livraison express, parfait."
+      },
+      {
+        "user": "BabaYaga",
+        "stars": 5,
+        "date": "11/06/2024",
+        "text": "Vendeur fiable, transaction sécurisée. Rien à redire, je reviendrai."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "game": "fortnite",
+    "game_name": "Fortnite",
+    "title": "Compte OG — Renegade Raider (Écumeuse Renégate)",
+    "subtitle": "Renegade Raider OG · skin Saison 1 ultra rare",
+    "price": 270,
+    "old_price": 350,
+    "discount": "-23%",
+    "badge": "★ OG Renegade",
+    "badge_class": "b-legendary",
+    "rating": 5,
+    "reviews_count": 22,
+    "img_gradient": "linear-gradient(145deg,#2e0454,#5b21b6,#8b5cf6)",
+    "icon_stroke": "#c4b5fd",
+    "images": [
+      "images/compte22-1",
+      "images/compte22-2",
+      "images/compte22-3",
+      "images/compte22-4",
+      "images/compte22-5",
+      "images/compte22-6",
+      "images/compte22-7",
+      "images/compte22-8",
+      "images/compte22-9",
+      "images/compte22-10"
+    ],
+    "features": [
+      "Renegade Raider / Écumeuse Renégate (Saison 1, ultra rare)",
+      "Skin OG parmi les plus recherchés au monde",
+      "Pioches et dos décoratifs assortis",
+      "Casier orienté tryhard",
+      "Compte Fortnite OG",
+      "Email Epic Games modifiable inclus"
+    ],
+    "stats": [
+      {
+        "label": "Skin star",
+        "value": "Renegade"
+      },
+      {
+        "label": "Rareté",
+        "value": "OG S1"
+      },
+      {
+        "label": "Style",
+        "value": "Tryhard"
+      },
+      {
+        "label": "Mode",
+        "value": "OG"
+      }
+    ],
+    "includes": [
+      "Accès compte Epic Games complet",
+      "Changement email inclus",
+      "Garantie anti-récupération à vie",
+      "Livraison en moins de 10 minutes"
+    ],
+    "description": "Le graal des comptes OG : la Renegade Raider (Écumeuse Renégate) de la Saison 1, l'un des skins les plus rares et prestigieux de Fortnite, dans un casier orienté tryhard avec pioches et dos décoratifs assortis. Une pièce de collection exceptionnelle. Email Epic Games modifiable inclus.",
+    "delivery_time": "< 10 minutes",
+    "reviews": [
+      {
+        "user": "OG_Collector",
+        "stars": 5,
+        "date": "10/06/2024",
+        "text": "Renegade Raider authentique, un rêve. Vendeur sérieux, livraison rapide. Top !"
+      },
+      {
+        "user": "S1Veteran",
+        "stars": 5,
+        "date": "11/06/2024",
+        "text": "Compte OG conforme, transaction sécurisée et email changé. Impeccable."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "game": "fortnite",
+    "game_name": "Fortnite",
+    "title": "Compte OG — Écuyer Bleu + Niveau 82",
+    "subtitle": "Écuyer Bleu & Chevaleresse (Saison 2) · Niveau 82",
+    "price": 150,
+    "old_price": 200,
+    "discount": "-25%",
+    "badge": "OG Saison 2",
+    "badge_class": "b-og",
+    "rating": 4.5,
+    "reviews_count": 24,
+    "img_gradient": "linear-gradient(145deg,#16023a,#4c1d95,#6d28d9)",
+    "icon_stroke": "#c4b5fd",
+    "images": [
+      "images/compte23-1",
+      "images/compte23-2",
+      "images/compte23-3",
+      "images/compte23-4",
+      "images/compte23-5",
+      "images/compte23-6",
+      "images/compte23-7",
+      "images/compte23-8",
+      "images/compte23-9"
+    ],
+    "features": [
+      "Écuyer Bleu (Blue Squire, Saison 2 OG)",
+      "Chevaleresse (Royale Knight) incluse",
+      "Compte niveau 82",
+      "Skins OG du Battle Pass Saison 2",
+      "Compte Fortnite OG",
+      "Email Epic Games modifiable inclus"
+    ],
+    "stats": [
+      {
+        "label": "Skin star",
+        "value": "Écuyer Bleu"
+      },
+      {
+        "label": "Niveau",
+        "value": "82"
+      },
+      {
+        "label": "Rareté",
+        "value": "OG S2"
+      },
+      {
+        "label": "Mode",
+        "value": "OG"
+      }
+    ],
+    "includes": [
+      "Accès compte Epic Games complet",
+      "Changement email inclus",
+      "Garantie anti-récupération à vie",
+      "Livraison en moins de 10 minutes"
+    ],
+    "description": "Compte OG de la Saison 2 avec l'Écuyer Bleu (Blue Squire) et la Chevaleresse, des skins du Battle Pass d'origine très appréciés des nostalgiques. Compte de niveau 82, prêt à jouer. Email Epic Games modifiable pour un transfert sécurisé.",
+    "delivery_time": "< 10 minutes",
+    "reviews": [
+      {
+        "user": "KnightOG",
+        "stars": 5,
+        "date": "10/06/2024",
+        "text": "Écuyer Bleu et Chevaleresse présents, niveau 82 confirmé. Vendeur top, je recommande."
+      },
+      {
+        "user": "Season2Fan",
+        "stars": 4,
+        "date": "11/06/2024",
+        "text": "Bon compte OG, livraison rapide et support dispo. Conforme à l'annonce."
+      }
+    ]
   }
 ];
