@@ -1074,15 +1074,15 @@ const VAULT_PRODUCTS = [
     "id": 22,
     "game": "fortnite",
     "game_name": "Fortnite",
-    "title": "Compte OG — Renegade Raider (Écumeuse Renégate)",
-    "subtitle": "Renegade Raider OG · skin Saison 1 ultra rare",
-    "price": 270,
-    "old_price": 350,
-    "discount": "-23%",
-    "badge": "★ OG Renegade",
-    "badge_class": "b-legendary",
+    "title": "Compte Fortnite — Renegade Raider (Écumeuse Renégate)",
+    "subtitle": "Renegade Raider (version boutique) · casier tryhard",
+    "price": 59,
+    "old_price": 79,
+    "discount": "-25%",
+    "badge": "Renegade",
+    "badge_class": "b-epic",
     "rating": 5,
-    "reviews_count": 22,
+    "reviews_count": 17,
     "img_gradient": "linear-gradient(145deg,#2e0454,#5b21b6,#8b5cf6)",
     "icon_stroke": "#c4b5fd",
     "images": [
@@ -1098,10 +1098,10 @@ const VAULT_PRODUCTS = [
       "images/compte22-10"
     ],
     "features": [
-      "Renegade Raider / Écumeuse Renégate (Saison 1, ultra rare)",
-      "Skin OG parmi les plus recherchés au monde",
-      "Pioches et dos décoratifs assortis",
+      "Skin Renegade Raider / Écumeuse Renégate (ressortie en boutique, pas la version Saison 1)",
       "Casier orienté tryhard",
+      "Pioches et dos décoratifs assortis",
+      "Plusieurs skins compétitifs",
       "Compte Fortnite OG",
       "Email Epic Games modifiable inclus"
     ],
@@ -1111,8 +1111,8 @@ const VAULT_PRODUCTS = [
         "value": "Renegade"
       },
       {
-        "label": "Rareté",
-        "value": "OG S1"
+        "label": "Version",
+        "value": "Boutique"
       },
       {
         "label": "Style",
@@ -1129,20 +1129,20 @@ const VAULT_PRODUCTS = [
       "Garantie anti-récupération à vie",
       "Livraison en moins de 10 minutes"
     ],
-    "description": "Le graal des comptes OG : la Renegade Raider (Écumeuse Renégate) de la Saison 1, l'un des skins les plus rares et prestigieux de Fortnite, dans un casier orienté tryhard avec pioches et dos décoratifs assortis. Une pièce de collection exceptionnelle. Email Epic Games modifiable inclus.",
+    "description": "Compte avec le skin Renegade Raider (Écumeuse Renégate). Important : il s'agit de la version ressortie en boutique, et non de l'originale ultra rare de la Saison 1. Le casier est orienté tryhard avec pioches et dos décoratifs assortis et plusieurs skins compétitifs. Un compte sympa et accessible. Email Epic Games modifiable pour un transfert sécurisé.",
     "delivery_time": "< 10 minutes",
     "reviews": [
       {
-        "user": "OG_Collector",
+        "user": "TryhardFR",
         "stars": 5,
         "date": "10/06/2024",
-        "text": "Renegade Raider authentique, un rêve. Vendeur sérieux, livraison rapide. Top !"
+        "text": "Compte conforme à l'annonce, livraison rapide et sécurisée. Vendeur sérieux, je recommande !"
       },
       {
-        "user": "S1Veteran",
-        "stars": 5,
-        "date": "11/06/2024",
-        "text": "Compte OG conforme, transaction sécurisée et email changé. Impeccable."
+        "user": "SkinLover",
+        "stars": 4,
+        "date": "05/06/2024",
+        "text": "Bonne transaction, accès reçu vite et support dispo. Conforme, rien à redire."
       }
     ]
   },
