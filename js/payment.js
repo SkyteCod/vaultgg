@@ -1,5 +1,5 @@
 /* ════════════════════════════════════════════════════════════
-   VaultGG — Modal de paiement réutilisable (PayPal + Carte)
+   AltisGG — Modal de paiement réutilisable (PayPal + Carte)
    Injecté sur index.html et product.html via <script src>.
    Expose : window.openPayment(), window.closePayment()
 ════════════════════════════════════════════════════════════ */

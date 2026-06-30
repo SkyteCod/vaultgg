@@ -66,7 +66,7 @@ const VAULT_PRODUCTS = [
         "user": "NightCr4ft",
         "stars": 5,
         "date": "12/06/2024",
-        "text": "Vendeur très sérieux, livraison hyper rapide et compte conforme à 100% à l'annonce. Aucun problème, tout est nickel. Je recommande VaultGG les yeux fermés !"
+        "text": "Vendeur très sérieux, livraison hyper rapide et compte conforme à 100% à l'annonce. Aucun problème, tout est nickel. Je recommande AltisGG les yeux fermés !"
       },
       {
         "user": "ProGamer_FR",
@@ -302,7 +302,7 @@ const VAULT_PRODUCTS = [
         "user": "GraveyardKing",
         "stars": 5,
         "date": "11/06/2024",
-        "text": "Vendeur fiable et rapide, compte conforme à 100%. Accès reçu en quelques minutes, aucun souci. Je recommande VaultGG !"
+        "text": "Vendeur fiable et rapide, compte conforme à 100%. Accès reçu en quelques minutes, aucun souci. Je recommande AltisGG !"
       },
       {
         "user": "PushMaster",
@@ -378,7 +378,7 @@ const VAULT_PRODUCTS = [
         "user": "LadderClimber",
         "stars": 5,
         "date": "03/06/2024",
-        "text": "Accès reçu direct, support réactif. Transaction nickel du début à la fin. Merci VaultGG !"
+        "text": "Accès reçu direct, support réactif. Transaction nickel du début à la fin. Merci AltisGG !"
       }
     ]
   },
@@ -449,7 +449,7 @@ const VAULT_PRODUCTS = [
         "user": "StarterFR",
         "stars": 4,
         "date": "02/06/2024",
-        "text": "Bon compte pour le prix, livraison rapide et support dispo. Je recommande VaultGG."
+        "text": "Bon compte pour le prix, livraison rapide et support dispo. Je recommande AltisGG."
       }
     ]
   },
