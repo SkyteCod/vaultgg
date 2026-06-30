@@ -457,12 +457,12 @@ const VAULT_PRODUCTS = [
     "id": 19,
     "game": "fortnite",
     "game_name": "Fortnite",
-    "title": "Compte Sweat — Aura + Skins Tryhard",
-    "subtitle": "Casier tryhard · Aura & skins sweat · Fortnite OG",
+    "title": "Compte Fortnite OG — Agent d'Élite (Niveau 341)",
+    "subtitle": "Niveau 341 · 14 skins · casier complet OG",
     "price": 55,
     "old_price": 75,
     "discount": "-27%",
-    "badge": "Sweat",
+    "badge": "OG Agent",
     "badge_class": "b-epic",
     "rating": 5,
     "reviews_count": 19,
@@ -480,29 +480,32 @@ const VAULT_PRODUCTS = [
       "images/compte19-9"
     ],
     "features": [
-      "Skin Aura (sweat/tryhard)",
-      "Plusieurs skins compétitifs",
-      "Pioches et dos décoratifs assortis",
-      "Émotes populaires incluses",
-      "Compte Fortnite OG",
-      "Email Epic Games modifiable inclus"
+      "Niveau du compte : 341",
+      "14 skins (tenues)",
+      "40 sacs à dos",
+      "37 pioches",
+      "24 planeurs",
+      "14 traînées de saut",
+      "14 émotes",
+      "16 revêtements (wraps)",
+      "Compte Fortnite OG — email Epic Games modifiable inclus"
     ],
     "stats": [
       {
-        "label": "Skin star",
-        "value": "Aura"
-      },
-      {
-        "label": "Style",
-        "value": "Sweat"
+        "label": "Niveau",
+        "value": "341"
       },
       {
         "label": "Skins",
-        "value": "10+"
+        "value": "14"
       },
       {
-        "label": "Mode",
-        "value": "OG"
+        "label": "Sac à dos",
+        "value": "40"
+      },
+      {
+        "label": "Émotes",
+        "value": "14"
       }
     ],
     "includes": [
@@ -511,7 +514,7 @@ const VAULT_PRODUCTS = [
       "Garantie anti-récupération à vie",
       "Livraison en moins de 10 minutes"
     ],
-    "description": "Compte idéal pour les joueurs compétitifs : il tourne autour du skin Aura, l'un des plus utilisés en partie « sweat », accompagné de plusieurs tenues tryhard, pioches et émotes assorties. Compte Fortnite OG prêt à enchaîner les parties. Email Epic Games modifiable pour un transfert 100% sécurisé.",
+    "description": "Compte Fortnite OG « Agent d'Élite » de niveau 341. Casier bien fourni : 14 skins, 40 sacs à dos, 37 pioches, 24 planeurs, 14 traînées de saut, 14 émotes et 16 revêtements. Un compte OG complet et prêt à jouer. Email Epic Games modifiable pour un transfert 100% sécurisé.",
     "delivery_time": "< 10 minutes",
     "reviews": [
       {
@@ -532,8 +535,8 @@ const VAULT_PRODUCTS = [
     "id": 20,
     "game": "fortnite",
     "game_name": "Fortnite",
-    "title": "Compte Galaxie — Skin Galaxy Rare + Niveau 76",
-    "subtitle": "Skin Galaxie (Samsung) · Niveau 76 · Fortnite OG",
+    "title": "Compte Fortnite OG — Galaxy (Niveau 322)",
+    "subtitle": "Skin Galaxie (Samsung) · Niveau 322 · 9 skins",
     "price": 230,
     "old_price": 300,
     "discount": "-23%",
@@ -553,29 +556,31 @@ const VAULT_PRODUCTS = [
       "images/compte20-7"
     ],
     "features": [
-      "Skin Galaxie (exclusivité Samsung, très rare)",
-      "Dos décoratif et pioche Galaxie assortis",
-      "Compte niveau 76",
-      "Plusieurs skins supplémentaires dans le casier",
-      "Compte Fortnite OG",
-      "Email Epic Games modifiable inclus"
+      "Skin Galaxie (exclusivité Samsung, rare)",
+      "Niveau du compte : 322",
+      "9 skins (tenues)",
+      "38 sacs à dos",
+      "25 pioches",
+      "26 planeurs",
+      "17 traînées · 16 émotes · 17 revêtements",
+      "Compte Fortnite OG — email Epic Games modifiable inclus"
     ],
     "stats": [
+      {
+        "label": "Niveau",
+        "value": "322"
+      },
+      {
+        "label": "Skins",
+        "value": "9"
+      },
       {
         "label": "Skin star",
         "value": "Galaxie"
       },
       {
-        "label": "Niveau",
-        "value": "76"
-      },
-      {
-        "label": "Rareté",
-        "value": "Ultra rare"
-      },
-      {
-        "label": "Mode",
-        "value": "OG"
+        "label": "Sac à dos",
+        "value": "38"
       }
     ],
     "includes": [
@@ -584,7 +589,7 @@ const VAULT_PRODUCTS = [
       "Garantie anti-récupération à vie",
       "Livraison en moins de 10 minutes"
     ],
-    "description": "Compte collector avec le skin Galaxie, une exclusivité Samsung extrêmement rare et recherchée, accompagné de son dos décoratif et de sa pioche assortie. Compte de niveau 76 avec d'autres tenues dans le casier. Une pièce rare pour les vrais connaisseurs. Email Epic Games modifiable inclus.",
+    "description": "Compte Fortnite OG « Galaxy » de niveau 322, avec le skin Galaxie (exclusivité Samsung, rare et recherchée). Casier : 9 skins, 38 sacs à dos, 25 pioches, 26 planeurs, 17 traînées, 16 émotes et 17 revêtements. Une belle pièce pour collectionneur. Email Epic Games modifiable pour un transfert sécurisé.",
     "delivery_time": "< 10 minutes",
     "reviews": [
       {
@@ -605,13 +610,13 @@ const VAULT_PRODUCTS = [
     "id": 21,
     "game": "fortnite",
     "game_name": "Fortnite",
-    "title": "Compte John Wick — Le Faucheur",
-    "subtitle": "John Wick / Le Faucheur · 400 V-Bucks · Niveau 8",
+    "title": "Compte Fortnite OG S3 — Le Faucheur (Niveau 1888)",
+    "subtitle": "Le Faucheur · Niveau 1888 · 44 skins · émote « T'as perdu »",
     "price": 140,
     "old_price": 180,
     "discount": "-22%",
-    "badge": "John Wick",
-    "badge_class": "b-epic",
+    "badge": "★ Le Faucheur",
+    "badge_class": "b-legendary",
     "rating": 5,
     "reviews_count": 26,
     "img_gradient": "linear-gradient(145deg,#1a1a2e,#3b0764,#6d28d9)",
@@ -630,29 +635,31 @@ const VAULT_PRODUCTS = [
       "images/compte21-11"
     ],
     "features": [
-      "Skin John Wick (Le Faucheur)",
-      "400 V-Bucks disponibles",
-      "Pioche et dos décoratif assortis",
-      "Plusieurs skins additionnels",
-      "Compte Fortnite OG",
-      "Email Epic Games modifiable inclus"
+      "Skin Le Faucheur (John Wick, Saison 3)",
+      "Émote « T'as perdu » (Take the L)",
+      "Niveau du compte : 1888",
+      "44 skins (tenues)",
+      "120 sacs à dos",
+      "89 pioches · 89 planeurs",
+      "60 traînées · 73 émotes · 81 revêtements",
+      "Compte Fortnite OG — email Epic Games modifiable inclus"
     ],
     "stats": [
       {
-        "label": "Skin star",
-        "value": "John Wick"
-      },
-      {
         "label": "Niveau",
-        "value": "8"
+        "value": "1888"
       },
       {
-        "label": "V-Bucks",
-        "value": "400"
+        "label": "Skins",
+        "value": "44"
       },
       {
-        "label": "Rareté",
-        "value": "Légendaire"
+        "label": "Émotes",
+        "value": "73"
+      },
+      {
+        "label": "Sac à dos",
+        "value": "120"
       }
     ],
     "includes": [
@@ -661,7 +668,7 @@ const VAULT_PRODUCTS = [
       "Garantie anti-récupération à vie",
       "Livraison en moins de 10 minutes"
     ],
-    "description": "Compte mettant en vedette John Wick (Le Faucheur), l'un des skins réalistes les plus iconiques de Fortnite. 400 V-Bucks disponibles, pioche et dos décoratif assortis, plus d'autres tenues dans le casier. Email Epic Games modifiable pour un transfert sécurisé.",
+    "description": "Gros compte Fortnite OG (Saison 3) de niveau 1888, avec le skin Le Faucheur (John Wick) et l'émote culte « T'as perdu ». Casier impressionnant : 44 skins, 120 sacs à dos, 89 pioches, 89 planeurs, 60 traînées, 73 émotes et 81 revêtements. Un compte très complet pour joueur exigeant. Email Epic Games modifiable pour un transfert sécurisé.",
     "delivery_time": "< 10 minutes",
     "reviews": [
       {
@@ -682,13 +689,13 @@ const VAULT_PRODUCTS = [
     "id": 22,
     "game": "fortnite",
     "game_name": "Fortnite",
-    "title": "Compte Fortnite — Renegade Raider (Écumeuse Renégate)",
-    "subtitle": "Renegade Raider (version boutique) · casier tryhard",
+    "title": "Compte Fortnite — Full Skin Tryhard (92 skins, Niveau 1872)",
+    "subtitle": "Niveau 1872 · 92 skins · énorme casier tryhard",
     "price": 59,
     "old_price": 79,
     "discount": "-25%",
-    "badge": "Renegade",
-    "badge_class": "b-epic",
+    "badge": "★ 92 Skins",
+    "badge_class": "b-legendary",
     "rating": 5,
     "reviews_count": 17,
     "img_gradient": "linear-gradient(145deg,#2e0454,#5b21b6,#8b5cf6)",
@@ -706,29 +713,31 @@ const VAULT_PRODUCTS = [
       "images/compte22-10"
     ],
     "features": [
-      "Skin Renegade Raider / Écumeuse Renégate (ressortie en boutique, pas la version Saison 1)",
-      "Casier orienté tryhard",
-      "Pioches et dos décoratifs assortis",
-      "Plusieurs skins compétitifs",
-      "Compte Fortnite OG",
-      "Email Epic Games modifiable inclus"
+      "92 skins (tenues) — casier full tryhard",
+      "Niveau du compte : 1872",
+      "168 sacs à dos",
+      "139 pioches",
+      "92 planeurs",
+      "57 traînées · 73 émotes · 108 revêtements",
+      "Inclut la Renegade Raider (version boutique)",
+      "Compte Fortnite OG — email Epic Games modifiable inclus"
     ],
     "stats": [
       {
-        "label": "Skin star",
-        "value": "Renegade"
+        "label": "Niveau",
+        "value": "1872"
       },
       {
-        "label": "Version",
-        "value": "Boutique"
+        "label": "Skins",
+        "value": "92"
       },
       {
-        "label": "Style",
-        "value": "Tryhard"
+        "label": "Pioches",
+        "value": "139"
       },
       {
-        "label": "Mode",
-        "value": "OG"
+        "label": "Sac à dos",
+        "value": "168"
       }
     ],
     "includes": [
@@ -737,7 +746,7 @@ const VAULT_PRODUCTS = [
       "Garantie anti-récupération à vie",
       "Livraison en moins de 10 minutes"
     ],
-    "description": "Compte avec le skin Renegade Raider (Écumeuse Renégate). Important : il s'agit de la version ressortie en boutique, et non de l'originale ultra rare de la Saison 1. Le casier est orienté tryhard avec pioches et dos décoratifs assortis et plusieurs skins compétitifs. Un compte sympa et accessible. Email Epic Games modifiable pour un transfert sécurisé.",
+    "description": "Compte Fortnite « Full Skin Tryhard » de niveau 1872, l'un des plus complets du catalogue : 92 skins, 168 sacs à dos, 139 pioches, 92 planeurs, 57 traînées, 73 émotes et 108 revêtements. Inclut la Renegade Raider (version boutique). Un véritable casier de joueur acharné. Email Epic Games modifiable pour un transfert sécurisé.",
     "delivery_time": "< 10 minutes",
     "reviews": [
       {
@@ -758,8 +767,8 @@ const VAULT_PRODUCTS = [
     "id": 23,
     "game": "fortnite",
     "game_name": "Fortnite",
-    "title": "Compte OG — Écuyer Bleu + Niveau 82",
-    "subtitle": "Écuyer Bleu & Chevaleresse (Saison 2) · Niveau 82",
+    "title": "Compte Fortnite OG S2 — Écuyer Bleu (Niveau 246)",
+    "subtitle": "Écuyer Bleu (Saison 2) · Niveau 246 · 2 skins",
     "price": 150,
     "old_price": 200,
     "discount": "-25%",
@@ -782,28 +791,30 @@ const VAULT_PRODUCTS = [
     ],
     "features": [
       "Écuyer Bleu (Blue Squire, Saison 2 OG)",
-      "Chevaleresse (Royale Knight) incluse",
-      "Compte niveau 82",
-      "Skins OG du Battle Pass Saison 2",
-      "Compte Fortnite OG",
-      "Email Epic Games modifiable inclus"
+      "Niveau du compte : 246",
+      "2 skins (tenues)",
+      "24 sacs à dos",
+      "25 pioches",
+      "25 planeurs",
+      "5 traînées · 14 émotes · 10 revêtements",
+      "Compte Fortnite OG — email Epic Games modifiable inclus"
     ],
     "stats": [
       {
-        "label": "Skin star",
-        "value": "Écuyer Bleu"
-      },
-      {
         "label": "Niveau",
-        "value": "82"
+        "value": "246"
       },
       {
-        "label": "Rareté",
-        "value": "OG S2"
+        "label": "Skins",
+        "value": "2"
       },
       {
-        "label": "Mode",
-        "value": "OG"
+        "label": "Pioches",
+        "value": "25"
+      },
+      {
+        "label": "Planeurs",
+        "value": "25"
       }
     ],
     "includes": [
@@ -812,7 +823,7 @@ const VAULT_PRODUCTS = [
       "Garantie anti-récupération à vie",
       "Livraison en moins de 10 minutes"
     ],
-    "description": "Compte OG de la Saison 2 avec l'Écuyer Bleu (Blue Squire) et la Chevaleresse, des skins du Battle Pass d'origine très appréciés des nostalgiques. Compte de niveau 82, prêt à jouer. Email Epic Games modifiable pour un transfert sécurisé.",
+    "description": "Compte Fortnite OG de la Saison 2 avec l'Écuyer Bleu (Blue Squire), de niveau 246. Casier : 2 skins, 24 sacs à dos, 25 pioches, 25 planeurs, 5 traînées, 14 émotes et 10 revêtements. Un compte OG ancien apprécié des nostalgiques. Email Epic Games modifiable pour un transfert sécurisé.",
     "delivery_time": "< 10 minutes",
     "reviews": [
       {
